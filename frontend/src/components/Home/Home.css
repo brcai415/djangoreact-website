@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.Home-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin:0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Time {
+  display: flex;
+  justify-content: center;
+  float: left;
+  padding: 10px;
+  }
+
+.profile-picture {
+  display: block;
+  border-radius: 50%;
+  object-fit: fill;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.contact-bar {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  float: right;
+  padding: 10px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.education{
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.listPadding{
+  padding: 10px;
+}
+
+.displayInline{
+  display: inline;
+}
+
+.flex-container{
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.flex-child{
+  flex: 1;
+}
