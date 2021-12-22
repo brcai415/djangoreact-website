@@ -32,7 +32,7 @@ services:
     build: ./frontend
     volumes:
       - ./frontend:/app/frontend
-      - /app/frontend/node_modules
+      - node_modules:/app/node_modules
     ports:
       - "3000:3000"
     environment:
@@ -42,7 +42,11 @@ services:
       - backend
     networks:
       - db-net
+    command: npm start
   
 networks:
   db-net:
     driver: bridge
+
+volumes:
+  node_modules:
