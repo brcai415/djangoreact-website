@@ -90,7 +90,7 @@ export default class SongSuggestion extends Component {
                                         Add Song Suggestion
                                     </button>
                                 </div>
-                                <h2 className= "text-center my-4">Songs Suggested</h2>
+                                <h2 className= "text-center my-4">Songs Suggested So Far</h2>
                                 <ul className="list-group list-group-flush border-top-0">
                                     {this.renderItems()}
                                 </ul>
