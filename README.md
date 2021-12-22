@@ -6,4 +6,4 @@ This repository contains the source code for my personal website! This is an ong
 - React.JS
 - Django
 - PSQL
-
+- Docker
