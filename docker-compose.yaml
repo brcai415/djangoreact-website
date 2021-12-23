@@ -14,8 +14,6 @@ services:
   
   backend:
     build: ./backend
-    volumes:
-      - ./backend:/app/backend
     ports:
       - "8000:8000"
     stdin_open: true
@@ -30,9 +28,6 @@ services:
 
   frontend:
     build: ./frontend
-    volumes:
-      - ./frontend:/app/frontend
-      - node_modules:/app/node_modules
     ports:
       - "3000:3000"
     environment:
@@ -47,6 +42,3 @@ services:
 networks:
   db-net:
     driver: bridge
-
-volumes:
-  node_modules:
