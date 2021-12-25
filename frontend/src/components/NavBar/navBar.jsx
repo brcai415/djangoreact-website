@@ -23,9 +23,9 @@ function navBar() {
                     <Link style={navStyle} to='/about'>
                         <li className="nav-item px-2">About</li>
                     </Link>
-                    <Link style={navStyle} to='/songsuggestion'>
+                    {/* <Link style={navStyle} to='/songsuggestion'>
                         <li className="nav-item px-2">Suggest a Song</li>
-                    </Link>
+                    </Link> */}
                 </ul>
             </div>
         </nav>
