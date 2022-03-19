@@ -1,0 +1,41 @@
+div{
+    margin-bottom: 10spx;
+}
+
+div.Viewport{
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    background: #7c7e82;
+    padding: 40px;
+    width: 60%;
+    height: 50%;
+}
+div.About-Me{
+    width: "50%";
+    border-bottom-style: inset;
+    border-bottom-width: 50%;
+    margin: 0 auto 30px;
+}
+
+div.Education{
+    margin-left: 5%;
+}
+
+div.Work-Experience{
+    margin-left: 5%;
+}
+
+li{
+    list-style-position: outside;
+    max-width: 90%;
+    overflow: wrap;
+}
+
+.multicolortext{
+    background-image: linear-gradient(to right, #003DA5 28%, #ffb81c 20%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

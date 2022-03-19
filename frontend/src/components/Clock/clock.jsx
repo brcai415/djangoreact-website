@@ -10,6 +10,9 @@ class Clock extends Component {
             this.updateClock(),
             1000)
     }
+    componentWillUnmount() {
+        clearTimeout(this.intervalID);
+    }
     updateClock() {
         this.setState({
             time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
