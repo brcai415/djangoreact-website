@@ -1,18 +1,19 @@
 div{
-    margin-bottom: 10spx;
+    margin-bottom: 10px;
 }
 
 div.Viewport{
     margin: auto;
-    background-color: antiquewhite;
     border-radius: 25px;
-    background: #7c7e82;
+    background: #688356;
     padding: 40px;
     width: 60%;
     height: 50%;
+    font-size: 16pt;
 }
 div.About-Me{
     width: "50%";
+    border-color: #636930;
     border-bottom-style: inset;
     border-bottom-width: 50%;
     margin: 0 auto 30px;
@@ -32,6 +33,9 @@ li{
     overflow: wrap;
 }
 
+div.Skills{
+    margin-left: 2%;
+}
 .multicolortext{
     background-image: linear-gradient(to right, #003DA5 28%, #ffb81c 20%);
     -webkit-background-clip: text;

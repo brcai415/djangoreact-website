@@ -16,16 +16,16 @@ export default class Home extends Component {
     }
     
     render() {
-        return (         
+        return (     
+        <>
+        <NavBar />    
           <div className ="container-fluid">
-            
-            <NavBar />
 
             <div className = "container-fluid text-center">
                 <img className="img-fluid rounded-circle" src={me} alt='me' />
             </div>
             <div className="container-fluid text-center my-4">
-                <p className = "h1">
+                <p className = "h1" style={{paddingBottom: 20}}>
                     Hi there, I'm Brandon. Thanks for stopping by!
                 </p>
             </div>
@@ -53,6 +53,7 @@ export default class Home extends Component {
                 </div>
             </div>
           </div>
+        </>
         );
     }
 }

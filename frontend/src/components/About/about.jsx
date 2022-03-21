@@ -2,12 +2,16 @@ import '../Home/Home.css'
 import React, { Component } from 'react';
 import NavBar from '../NavBar/navBar';
 import './about.css';
+import { ReactDOM } from 'react-dom';
 
 const Education = <div className="Education">
-    <h4 className = "multicolortext">University of California, Riverside</h4>
+    <h3><span style={{color: "#003DA5"}}>University of California,</span> <span style={{color: "#ffb81c"}}>Riverside</span></h3>
         <ul>
-            <li>Bachelors of Science</li>
-            <li>Computer Science and Business Applications</li>
+            <li>B.S. Computer Science with Business Applications</li>
+            <li><b>Computer Science Undergraduate Courses</b>: Software Construction, Logic Design, Data
+Structures & Algorithms, Design of Operating Systems, Computer Security, Database Management
+Systems, Unix System Administration, Discrete Structures, Design & Architecture of Computer
+Systems, Introduction to Big Data, Principles of Programming Languages</li>
         </ul>
     </div>
 
@@ -38,28 +42,52 @@ const Work_Experience = <div className = "Work-Experience">
                 </ul>
         </div>
     
+const Skills = <div className = "Skills">
+            <ul style={{listStyle: 'None'}}>
+                <li><span style={{fontWeight: "bold"}}>Languages: </span>Python, C++, Java, JavaScript, SQL</li>
+                <li><span style={{fontWeight: "bold"}}>Frameworks: </span>React, HTML/CSS</li> 
+                <li><span style={{fontWeight: "bold"}}>Tools: </span>Git, Postman, IBM Watson, Google Dialogflow</li>  
+            </ul>
+        </div>
+
+class About_viewport extends Component {
+    constructor(props){
+        super(props);
+    }
+    render(){
+        return(        
+            <div className = "Viewport">
+                <div className="About-Me">
+                    <h1 style={{textAlign:'center'}}>About Me</h1>
+                </div>
+                <div>
+                    <h2 style={{textAlign: 'center'}}><u>Education</u></h2>
+                        { Education }
+                    <h2 style={{textAlign: 'center'}}><u>Work Experience</u></h2>
+                        { Work_Experience }
+                    <h2 style={{textAlign: 'center'}}><u>Skills</u></h2>
+                        { Skills }
+                </div>
+             </div>
+        );
+    }
+}
 export default class About extends Component {
+    constructor(props){
+        super(props);
+    }
     componentDidMount() {
         document.title = "Brandon Cai | About"
     }
-
+    componentWillUnmount() {
+        clearTimeout(this.intervalID);
+    }
     render() {
         return (
-            <React.Fragment>
+            <>
                 <NavBar />
-                <div className = "Viewport">
-                    <div className="About-Me">
-                        <h1 style={{textAlign:'center'}}>About Me</h1>
-                    </div>
-                    <div>
-                            <h2 style={{textAlign: 'center'}}><u>Education</u></h2>
-                                { Education }
-                            <h2 style={{textAlign: 'center'}}><u>Work Experience</u></h2>
-                                { Work_Experience }
-                    </div>
-                </div>
-            </React.Fragment>
-
+                <About_viewport />
+            </>
         );
     }
 }

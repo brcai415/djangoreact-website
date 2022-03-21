@@ -1,27 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Clock from "../Clock/clock";
-
+import './navBar.css';
 function navBar() {
     const navStyle = {
-        color: '#97CC04',
+        fontSize: '16pt',
+        color: '#ffc428',
         textDecoration: 'none'
     };
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid text-center">
-                <ul class="navbar-nav me-auto">
-                    <Clock/>
-                </ul>
-            </div>
-            <div class="container-fluid text-center">
-                <ul class="navbar-nav ms-auto">
+        <nav className="navbar navbar-expand-lg navbar-light">
+            <div className="container-fluid">
+                <div className="container-fluid text-left ">
+                    <span><Clock/></span>
+                </div> 
+                <ul className="navbar-nav text-right">
                     <Link style={navStyle} to='/'>
-                        <li className="nav-item px-2">Home</li>
+                        <span style={{padding: '.25em'}}><button className="btn btn-primary btn-outline-primary-*">🏠Home</button></span>
                     </Link>
                     <Link style={navStyle} to='/about'>
-                        <li className="nav-item px-2">About</li>
+                        <span style={{padding: '.25em'}}><button className="btn btn-primary btn-outline-primary-*">👨‍💻About</button></span>
                     </Link>
                     {/* <Link style={navStyle} to='/songsuggestion'>
                         <li className="nav-item px-2">Suggest a Song</li>
