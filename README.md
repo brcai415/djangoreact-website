@@ -4,6 +4,7 @@ This repository contains the source code for my personal website! This is an ong
 
 ## Technologies Used
 - React.JS
+- HTML
+- CSS
 - Django
 - PSQL
-- Docker
