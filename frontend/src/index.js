@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import About from './components/About/about';
 import SongSuggestion from './components/songSuggestion/songSuggestion';
 import reportWebVitals from './reportWebVitals';
+import Test from './components/Test Page/test';
 import{
     BrowserRouter as Router,
     Routes,
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/test" element={<Test />} />
         <Route path="/songsuggestion" element={<SongSuggestion />} />
     </Routes>
   </Router>,
