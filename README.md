@@ -8,3 +8,4 @@ This repository contains the source code for my personal website! This is an ong
 - CSS
 - Django
 - PSQL
+- Flask
