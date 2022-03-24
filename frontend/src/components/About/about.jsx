@@ -2,7 +2,6 @@ import '../Home/Home.css'
 import React, { Component } from 'react';
 import NavBar from '../NavBar/navBar';
 import './about.css';
-import { ReactDOM } from 'react-dom';
 
 const Education = <div className="Education">
     <h3><span style={{color: "#003DA5"}}>University of California,</span> <span style={{color: "#ffb81c"}}>Riverside</span></h3>
