@@ -3,7 +3,7 @@ import Clock from '../Clock/clock';
 import GitLogo from '../../assets/GitHub-Mark-Light-120px-plus.png';
 import LinkedInLogo from '../../assets/LI-In-Bug.png';
 import NavBar from '../NavBar/navBar';
-import me from '../../assets/me.JPG';
+import me from '../../assets/me.jpg';
 import './Home.css';
 
 export default class Home extends Component {
