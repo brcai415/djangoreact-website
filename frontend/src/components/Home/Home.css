@@ -16,6 +16,11 @@
   color: #61dafb;
 }
 
+.img-fluid {
+  max-width: 500px;
+  height: auto;
+}
+
 .profile-picture {
   display: block;
   border-radius: 50%;
