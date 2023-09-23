@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/djangoreact-website/static/css/main.01be0bb4.css",
-    "main.js": "/djangoreact-website/static/js/main.fb9ddae7.js",
-    "static/js/787.d8c6ec95.chunk.js": "/djangoreact-website/static/js/787.d8c6ec95.chunk.js",
-    "static/media/me.JPG": "/djangoreact-website/static/media/me.4f82997cd664521a5ffe.JPG",
-    "index.html": "/djangoreact-website/index.html",
-    "main.01be0bb4.css.map": "/djangoreact-website/static/css/main.01be0bb4.css.map",
-    "main.fb9ddae7.js.map": "/djangoreact-website/static/js/main.fb9ddae7.js.map",
-    "787.d8c6ec95.chunk.js.map": "/djangoreact-website/static/js/787.d8c6ec95.chunk.js.map"
+    "main.css": "//brcai415.github.io/djangoreact-website/static/css/main.01be0bb4.css",
+    "main.js": "//brcai415.github.io/djangoreact-website/static/js/main.7deeca9d.js",
+    "static/js/787.d8c6ec95.chunk.js": "//brcai415.github.io/djangoreact-website/static/js/787.d8c6ec95.chunk.js",
+    "static/media/me.JPG": "//brcai415.github.io/djangoreact-website/static/media/me.4f82997cd664521a5ffe.JPG",
+    "index.html": "//brcai415.github.io/djangoreact-website/index.html",
+    "main.01be0bb4.css.map": "//brcai415.github.io/djangoreact-website/static/css/main.01be0bb4.css.map",
+    "main.7deeca9d.js.map": "//brcai415.github.io/djangoreact-website/static/js/main.7deeca9d.js.map",
+    "787.d8c6ec95.chunk.js.map": "//brcai415.github.io/djangoreact-website/static/js/787.d8c6ec95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01be0bb4.css",
-    "static/js/main.fb9ddae7.js"
+    "static/js/main.7deeca9d.js"
   ]
 }
